@@ -17,14 +17,22 @@ Installation
 ============
 
 Use npm to install grunt and grunt-init
+
+```shell
 	(sudo) npm install grunt-cli grunt-init -g
+```
 
 Create a .grunt-init file in your home directory
+
+```shell
 	mkdir ~/.grunt-init
+```
 
 Clone grunt-go into this directory:
+```shell
 	cd ~/.grunt-init
 	git clone git://github.com/lukepur/grunt-go.git .
+```
 
 Create a new project from a template
 ====================================
@@ -40,10 +48,14 @@ projectType is simply the name of the directory of the type of project you want 
 2. Enter the name of your new project and hit enter twice.
 
 3. Install npm dependencies:
+```shell
 	(sudo) npm install
+```
 
 4. Start having your changes watched as you develop:
+```shell
 	grunt
+```
 
 5. Develop!
 
