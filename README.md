@@ -64,3 +64,4 @@ Still to come
 3. Testing tasks
 4. Allow the removal of unneeded lib components
 5. Lib versioning
+6. Test on Windows
