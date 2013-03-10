@@ -30,7 +30,11 @@ Create a new project from a template
 ====================================
 
 1. From the root of your new project directory:
+
+```shell
 	grunt-init <projectType>
+```
+
 projectType is simply the name of the directory of the type of project you want to scaffold from.
 
 2. Enter the name of your new project and hit enter twice.
