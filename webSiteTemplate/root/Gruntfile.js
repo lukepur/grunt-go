@@ -44,6 +44,20 @@ module.exports = function(grunt) {
 						cwd : 'img/',
 						src : ['**/*.*'],
 						dest : 'public/img/'
+					},
+					{
+						// favicon
+						'public/favicon.ico' : 'favicon.ico'
+					}
+				]
+			},
+			js : {
+				files : [
+					{
+						expand : true,
+						cwd : 'js/',
+						src : ['**/*.js'],
+						dest : 'public/js'
 					}
 				]
 			}
@@ -56,9 +70,8 @@ module.exports = function(grunt) {
 			dist: {
 				// ensure required load order
 				src : [	'lib/jquery-1.9.1.js',
-						'lib/**/*.js', 
-						'js/**/*.js'],
-				dest : 'public/js/all-min.js'
+						'lib/**/*.js'],
+				dest : 'public/js/lib-min.js'
 			}
 		},
 

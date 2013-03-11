@@ -41,7 +41,7 @@ Create a new project from a template
 ```shell
 	grunt-init <projectType>
 ```
-projectType is simply the name of the directory of the type of project you want to scaffold from.
+projectType is simply the name of the directory of the type of project you want to scaffold from, e.g. webAppTemplate or webSiteTemplate.
 
 2. Enter the name of your new project and hit enter twice.
 
